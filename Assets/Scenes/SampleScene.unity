@@ -1660,7 +1660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.000008
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2276,6 +2276,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1509010003780451918, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3425589306487620505, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_Name
       value: CameraRigs.UnityXRPluginFramework
@@ -2322,6 +2326,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455428504947032323, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889747625056509988, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889747625056509988, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
+      propertyPath: m_TrackingSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889747625056509988, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
+      propertyPath: m_RequestedTrackingMode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
