@@ -10,7 +10,6 @@ public class Handle : MonoBehaviour
     void Start()
     {
         myRigidBody.Sleep();
-        print("???");
     }
 
     public void WakeUp()
