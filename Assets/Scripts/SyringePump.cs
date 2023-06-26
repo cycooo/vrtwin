@@ -1,18 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SyringePump : MonoBehaviour
 {
-    [SerializeField]
+    public bool open = false;
+
+    public GameObject meshContainer;
+
     private Rigidbody rb;
+    private Animator meshAnimator;
 
 
-    // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        meshAnimator = meshContainer.GetComponent<Animator>();
+
         Sleep();
     }
+
+
+    public void Open()
+    {
+        meshAnimator.Play("Open");
+        open = true;
+    }
+
+
+    public void Close()
+    {
+        meshAnimator.Play("Close");
+        open = false;
+    }
+
 
     public void WakeUp()
     {
