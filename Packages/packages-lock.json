@@ -1,12 +1,10 @@
 {
   "dependencies": {
     "com.unity.collab-proxy": {
-      "version": "1.17.6",
+      "version": "2.0.4",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.services.core": "1.0.1"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -28,17 +26,17 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.16",
-        "com.unity.ide.rider": "3.0.16",
+        "com.unity.ide.visualstudio": "2.0.18",
+        "com.unity.ide.rider": "3.0.21",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.1.1",
+        "com.unity.performance.profile-analyzer": "1.2.2",
         "com.unity.test-framework": "1.1.31",
-        "com.unity.testtools.codecoverage": "1.0.1"
+        "com.unity.testtools.codecoverage": "1.2.3"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.16",
+      "version": "3.0.21",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -47,7 +45,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.16",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -63,7 +61,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.4.4",
+      "version": "1.5.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -71,39 +69,21 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.1.1",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.probuilder": {
-      "version": "5.0.6",
+      "version": "5.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.settings-manager": "1.0.3",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.services.core": {
-      "version": "1.6.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
-        "com.unity.modules.androidjni": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -114,33 +94,24 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.subsystemregistration": {
-      "version": "1.1.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.sysroot": {
-      "version": "2.0.4",
+      "version": "2.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.linux-x86_64": {
-      "version": "2.0.3",
+      "version": "2.0.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.4"
+        "com.unity.sysroot": "2.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.31",
+      "version": "1.1.33",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -151,7 +122,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.testtools.codecoverage": {
-      "version": "1.0.1",
+      "version": "1.2.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -170,7 +141,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -182,22 +153,22 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.linux-x86_64": {
-      "version": "2.0.3",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.4",
-        "com.unity.sysroot.linux-x86_64": "2.0.3"
+        "com.unity.sysroot": "2.0.6",
+        "com.unity.sysroot.linux-x86_64": "2.0.5"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
-      "version": "2.0.3",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "2.0.4",
-        "com.unity.sysroot.linux-x86_64": "2.0.3"
+        "com.unity.sysroot": "2.0.6",
+        "com.unity.sysroot.linux-x86_64": "2.0.5"
       },
       "url": "https://packages.unity.com"
     },
@@ -211,7 +182,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.7.8",
+      "version": "1.8.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -231,20 +202,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.2.1",
+      "version": "4.3.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7",
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "3.2.2",
+      "version": "3.3.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -253,70 +223,80 @@
       "url": "https://packages.unity.com"
     },
     "io.extendreality.tilia.camerarigs.trackedalias.unity": {
-      "version": "2.0.4",
+      "version": "2.4.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0"
+        "io.extendreality.zinnia.unity": "2.12.1"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.camerarigs.xrpluginframework.unity": {
-      "version": "2.0.4",
+      "version": "2.1.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0",
+        "io.extendreality.zinnia.unity": "2.12.1",
         "com.unity.xr.management": "4.0.1"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.indicators.objectpointers.unity": {
-      "version": "2.1.7",
+      "version": "2.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0",
+        "io.extendreality.zinnia.unity": "2.12.1",
         "io.extendreality.tilia.utilities.shaders.unity": "1.3.1",
-        "io.extendreality.tilia.mutators.objectfollower.unity": "2.0.4"
+        "io.extendreality.tilia.mutators.objectfollower.unity": "2.0.16"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.input.unityinputsystem": {
-      "version": "2.1.0",
+      "version": "2.4.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0",
-        "com.unity.inputsystem": "1.0.2"
+        "io.extendreality.zinnia.unity": "2.12.1",
+        "com.unity.inputsystem": "1.5.0"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.interactions.controllables.unity": {
+      "version": "2.10.14",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.12.1",
+        "io.extendreality.tilia.interactions.interactables.unity": "2.16.2"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.interactions.interactables.unity": {
-      "version": "2.7.0",
-      "depth": 0,
+      "version": "2.16.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0"
+        "io.extendreality.zinnia.unity": "2.12.1"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.locomotors.teleporter.unity": {
-      "version": "2.1.0",
+      "version": "2.1.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0",
+        "io.extendreality.zinnia.unity": "2.12.1",
         "io.extendreality.tilia.utilities.shaders.unity": "1.3.1"
       },
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.tilia.mutators.objectfollower.unity": {
-      "version": "2.0.4",
+      "version": "2.0.16",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "io.extendreality.zinnia.unity": "2.3.0"
+        "io.extendreality.zinnia.unity": "2.12.1"
       },
       "url": "https://registry.npmjs.org"
     },
@@ -328,7 +308,7 @@
       "url": "https://registry.npmjs.org"
     },
     "io.extendreality.zinnia.unity": {
-      "version": "2.3.0",
+      "version": "2.12.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
